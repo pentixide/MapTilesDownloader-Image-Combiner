@@ -43,4 +43,3 @@ def combineImages(imDict):
 image = combineImages(findImages(path))
 image.save(path[:path.rfind('/')+1]+str(image)[-12:-1]+'.png')
 image.show()
-    
